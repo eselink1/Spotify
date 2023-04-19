@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 2rem 7vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    /* padding-bottom: 1;` */
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.navlinks, .navlinks a {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    text-decoration: none;
+}
+.navlinks {
+    transform-origin: top right 0px;
+    animation: movedown .3s linear;
+}
+@keyframes movedown {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.close-btn {
+    display: none;
+    width: 1rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.container2 {
+    padding: 2rem 7vw;
+    display: flex;
+    background-color: #993399;
+    color: #fff; 
+}
+
+h2 {
+    width: 90%;
+}
+
+.btn1 {
+    /* border: 1px solid; */
+    padding: 1.5em;
+    border-radius: 2em;
+    color: #fff;
+    background-color: black;
+    /* width: 40%; */
+}
+
+.btn2 {
+    border: 2px solid;
+    padding: 1.5em;
+    border-radius: 2em;
+    background-color: #993399;
+    color: #fff;
+    /* width: 30%; */
+}
+
+.one p {
+    font-size: 12px;
+    /* width: 90%; */
+}
+
+a {
+    color: #fff;
+}
+
+.three h1 {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.container3 {
+    /* border: 1px solid; */
+    padding-top: 5rem;
+    padding: 7vw;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.spotifyimg {
+    padding-bottom: 2rem;
+}
+
+figcaption {
+    font-size: x-large;
+}
+
+section {
+    /* border: 1px solid; */
+    background-color: #efefef;
+}
+
+.four {
+    padding-top: 4rem;
+    text-align: center;
+}
+.four h1 {
+    font-size: 30px;
+}
+
+.card {
+    padding: 5rem 10% 5rem 10vw;
+    /* border: 1px solid; */
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    gap: 1em;
+    
+}
+
+.card1 {
+    /* border: 1px solid; */
+    border-radius: 1em;
+    padding: 1rem;
+    /* max-width: min(50vw, 300px); */
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px #b1aeae;
+}
+
+.line{
+    padding-top: 2rem;
+    border-bottom: 1px solid;
+    }
+
+.line2{
+    padding-top: 3rem;
+    border-bottom: 1px solid;
+}
+
+    .check, .check2, .check3, .check4 {
+        margin: 0;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: flex;
+        gap: 1em;
+    }
+
+    .sub {
+        /* border: 1px solid black; */
+        background-color: #2e77d0 ;
+        color: #fff;
+        padding: 0.2em;
+        border-radius: 0.2em;
+        width: 90%;
+    }
+    .sub2 {
+        background-color: #2e77d0;
+        color: #fff;
+        padding: 0.2em;
+        border-radius: 0.2em;
+        width: 40%;
+        margin-bottom: 18px;
+    }
+
+    .plan {
+        border: 1px solid #2e77d0;
+        color: #2e77d0;
+        padding: 0.2em;
+        margin-top: 10px;
+        border-radius: 0.2em;
+        width: 80%;
+        font-weight: 900;
+
+    }
+
+    .get {
+        width: 100%;
+        padding: 1em;
+        margin-block: 0.5rem;
+        border-radius: 2em;
+        text-transform: uppercase;
+        background-color: black;
+        color: #fff;
+    }
+
+    .bottom{
+        font-size: 13px;
+    }
+
+    footer {
+        background-color: black;
+        padding: 2rem 7vw;
+        
+    }
+
+    .icon2 {
+        display: flex;
+    }
+    .footergrid {
+        /* border: 1px solid #fff; */
+        padding-top: 3rem;
+        color: #fff;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        gap: 2em;
+    }
+    .company {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .communities {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .iconsfoot {
+        display: flex;
+        gap: 1em;
+    }
+    header {
+        color: #b3b2b2;
+        font-size: 12px;
+    }
+
+    .earth {
+        color: #b3b2b2;
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.5em;
+        padding-top: 4rem;
+        font-size: 13px;
+    }
+
+    .navlinks2 {
+        padding-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+    }
+
+    .right p {
+        color: #fff;
+        font-size: 12px;
+    }
+    .left {
+        display: flex;
+        gap: 2em;
+    }
+    footer a {
+        text-decoration: none;
+    }
+
+    .left a {
+        text-decoration: none;
+        color: #b3b2b2;
+        gap: 2em;
+    }
+
+    a:hover {
+        color: rgb(34, 233, 34);
+    }
+
+
+@media (max-width:768px) {
+   
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .navlinks {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background-color: black;
+        flex-direction: column;
+        align-items: flex-start;
+        /* height: 100vh; */
+    }
+    .hamburger {
+        display: flex;
+        align-items: center;
+    }
+    .btn1 {
+        width: 100%;
+    }
+    .btn2 {
+        width: 100%;
+    }
+    .two img {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .footergrid {
+        padding-top: 3rem;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 2em;
+    }
+
+}
+
+@media (max-width:600px) {
+    .container3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .navlinks2, .left {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .iconsfoot {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width:330px) {
+    .spotifyimg {
+        width: 100%;
+    }
+}
